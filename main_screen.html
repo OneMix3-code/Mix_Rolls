@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, install-scale=1.0">
+    
+    <title>Mix_Rolls</title>
+    <link rel="stylesheet" href="CSS/mainStyle.css">
+    
+</head>
+<body>
+    <div class="Header" id="Header">
+        <div class="header_more_750px">
+            <img class="Logo" src="Assets/Logo.png">
+            <ul class="Navigation">
+                <li><a href="#main" class="head_nav" id="head_home">Главная</a></li>
+                <li><a href="#Menu_anchor" class="head_nav" id="head_product">Меню</a></li>
+                <li><a href="#promo_anchor" class="head_nav" id="head_promo">Акции</a></li>
+                <li><a href="#footer_contacts" class="head_nav" id="head_contacts">Контакты</a></li>
+            </ul>
+            <img class="poisk" src="Assets/Search_logo.png">
+        </div>
+        <div class="header_under_750px">
+            <img class="Logo" src="Assets/Logo.png">
+            <div class="search_input_header_block">
+                <input type="text" placeholder="Поиск..." class="search_input_header" />
+                <img class="poisk" src="Assets/Search_logo.png">
+            </div>
+            <img class="more_header" id="more_btn" onclick="nav_on()" src="Assets/more.png">
+            <ul class="Navigation" id="Navigation_under_750px">
+                <li><a href="#main" class="head_nav" id="head_home">Главная</a></li>
+                <li><a href="#Menu_anchor" class="head_nav" id="head_product">Меню</a></li>
+                <li><a href="#promo_anchor" class="head_nav" id="head_promo">Акции</a></li>
+                <li><a href="#footer_contacts" class="head_nav" id="head_contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="first_block" id="main">
+        <a class="product_title">Company Name</a>
+        <p class="product_description">Наша компания — один из крупнейших ресторанов японской кухни, специализирующийся на суши и роллах. У нас вы можете заказать вкусные блюда на дом или посетить наши уютные торговые точки. Наслаждайтесь свежестью и аутентичным вкусом японских деликатесов в любое удобное для вас время!</p>
+        <a class="order_button" href="catalog.html">Каталог</a>
+    </div>
+    <div class="scnd_block" id="Menu_anchor">
+        <div class="scnd_block_more_750px">
+            <img class="shapes" src="Assets/Shaps_background_2.png">
+            <h1 class="menu_title">Популярные позиции меню</h1>
+            <ul class="menu_Items">
+                <li class="list_item_block_2" id="menu_items_1">
+                    <ul class="list_item_1">
+                        <li class="img_list_item_block_2"><img id="img_first_item" src="Assets/img_1_bg_3.png"></li>
+                        <li class="name_first_item"><h1>Сет Филадельфия</h1></li>
+                        <li><a href="#Filadelfia" class="more_button">Больше...</a></li>
+                    </ul>
+                </li>
+                <li class="list_item_block_2" id="menu_items_2">
+                    <ul class="list_item_2">
+                        <li class="img_list_item_block_2"><img id="img_scnd_item" src="Assets/img_1_bg_5.png"></li>
+                        <li class="name_scnd_item"><h1>Сет Дружба</h1></li>
+                        <li><a href="#Frend" class="more_button">Больше...</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="scnd_block_under_750px">
+            <h1 class="title">Популярные позиции нашего меню</h1>
+            <ul class="menu_items">
+                <li class="first_item"><ul class="first_item_list">
+                    <li><img src="Assets/Img_1_bg_2.png" alt="" class="product_image"></li>
+                    <li><span class="title">Сет Филадельфия</span></li>
+                    <li><a href="#Filadelfia" class="more_button">Больше...</a></li>
+                </ul></li>
+                <li class="scnd_item"><ul class="scnd_item_list">
+                    <li><img src="Assets/img_2_bg_2.png" alt="" class="product_image"></li>
+                    <li><span class="title">Сет Дружба</span></li>
+                    <li><a href="#Filadelfia" class="more_button">Больше...</a></li>
+                </ul></li>
+            </ul>
+        </div>
+    </div>
+    <div class="third_block" id="Filadelfia">
+        <img class="shapes_third_bg" src="Assets/Shapes_background_3.png">
+        <img class="rols_image_3" src="Assets/img_1_bg_3.png">
+        <h1 class="title_third_block">Сет Филадельфия</h1>
+        <p class="third_block_description">Насладитесь нашим сетом "Филадельфия" — в него входит 6 свежих роллов "Филадельфия", идеально сочетающихся с соевым соусом. В комплект также входят палочки для еды, острый васаби и ароматные листья имбиря — всё для полноценного и вкусного японского опыта!</p>
+        <a href="#" class="order_button-3">Заказать</a>
+    </div>
+    <div class="fourth_block">
+        <div class="stat_over_750px">
+            <img src="Assets/Shapes_bg_4.png" class="shapes_4">
+            <h1 class="statistic_bg_4">Статистика</h1>
+            <ul class="stat_circles">
+                <li><ul class="stat">
+                        <li> <img src="Assets/Circle_bg_4.png" class="Circle_bg_4" id="Circle_bg_4_1"> </li>
+                        <li><a class="list_of_stat_el_bg_4" id="count_store_bg_4">>20</a></li>
+                        <li><a class="list_of_titles_el_bg_4" id="store_bg_4">Заведений</a></li>
+                     </ul></li>
+                <li><ul class="titles_bg_4">
+                        <li> <img src="Assets/Circle_bg_4.png" class="Circle_bg_4" id="Circle_bg_4_2"> </li>    
+                        <li><a class="list_of_stat_el_bg_4" id="count_menu_bg_4">>30</a></li>
+                        <li><a class="list_of_titles_el_bg_4" id="menu_bg_4">Позиций</a></li>
+                    </ul></li>
+                <li><ul class="list_of_statistics_bg_4">
+                        <li> <img src="Assets/Circle_bg_4.png" class="Circle_bg_4" id="Circle_bg_4_3"> </li>
+                        <li><a class="list_of_stat_el_bg_4" id="count_chef_bg_4">>200</a></li>
+                        <li><a class="list_of_titles_el_bg_4" id="chef_bg_4">Сушистов</a></li>
+                    </ul></li>
+            </ul>
+        </div>
+        <div class="stat_under_750px">
+            <h1 class="stat_title">Статистика</h1>
+            <ul class="stat_circles">
+                <li><ul class="stat_circle" id="stat_circle_1">
+                        <li> <img src="Assets/Circle_bg_4.png" class="Circle_bg_4" id="Circle_bg_4_1"> </li>
+                        <li><a class="list_of_stat_el_bg_4" id="count_store_bg_4">>20</a></li>
+                        <li><a class="list_of_titles_el_bg_4" id="store_bg_4">Заведений</a></li>
+                     </ul></li>
+                <li><ul class="stat_circle" id="stat_circle_2">
+                        <li> <img src="Assets/Circle_bg_4.png" class="Circle_bg_4" id="Circle_bg_4_2"> </li>    
+                        <li><a class="list_of_stat_el_bg_4" id="count_menu_bg_4">>30</a></li>
+                        <li><a class="list_of_titles_el_bg_4" id="menu_bg_4">Позиций</a></li>
+                    </ul></li>
+                <li><ul class="stat_circle" id="stat_circle_3">
+                        <li> <img src="Assets/Circle_bg_4.png" class="Circle_bg_4" id="Circle_bg_4_3"> </li>
+                        <li><a class="list_of_stat_el_bg_4" id="count_chef_bg_4">>200</a></li>
+                        <li><a class="list_of_titles_el_bg_4" id="chef_bg_4">Сушистов</a></li>
+                    </ul></li>
+            </ul>
+            <button class="stat_btn" id="btn_back" onclick=back()>&#60</button>
+            <button class="stat_btn" id="btn_next" onclick=next()>&#62</button>
+        </div>  
+    </div> 
+    <div class="fifth_block" id="Frend">
+        <img src="Assets/shapes_bg_5.png" class="shapes_bg_5">
+        <img src="Assets/img_1_bg_5.png" class="bg_5_img">
+        <a class="title_bg_5">Сет Дружба</a>
+        <p class="description_bg_5">Сет "Дружба" включает 6 наших фирменных овощных роллов и 6 роллов "Филадельфия". В комплекте — соевый соус, палочки, васаби и имбирь. Идеальный выбор для небольшой компании, чтобы насладиться разнообразием вкусов!</p>
+        <a href="#" class="order_button_bg_5">Заказать</a>
+    </div>
+    <div class="sixth_block">
+        <div class="wrap_block_6">
+            <img src="Assets/icon_bg_6.png" class="icon_bg_6">
+            <p class="description_bg_6">Ресторатор — владелец сети наших ресторанов.</p>
+            <a class="title_bg_6">Ксения Родионова</a>
+        </div>
+    </div>
+    <div class="seventh_block" id="promo_anchor">
+        <img src="Assets/Shapes_bg_7.png" class="shapes_7">
+        <a class="title_bg_7">Оставьте почту</a>
+        <p class="description_bg_7">Чтобы одним из первых получать информацию о наших новинках и акциях</p>
+        <div class="e-mail_block_7">
+            <input type="email" placeholder="Ваш E-Mail" value="" class="input_bg_7">
+            <button class="subscribe_button_7">Отправить</button>
+        </div>
+    </div>
+    <div class="final_block" id="footer_contacts">
+        <ul class="first_col">
+            <li class="title"><a>Наши соцсети</a></li>
+            <li class="description_8_first_col"><p>Подписывайтесь на нас, чтобы узнавать информацию, а также участвовать в развитии наших заведений</p></li>
+            <li class="icons_8_first_col"><ul class="icons_8_first_col">
+                <li class="icons_footer" id="instagram"><img src="Assets/instagram.png"></li>
+                <li class="icons_footer" id="facebook"><img src="Assets/facebook.png"></li>
+                <li class="icons_footer" id="twitter"><img src="Assets/Twitter.png"></li>
+                <li class="icons_footer" id="whatsapp"><img src="Assets/whatsapp.png"></li>
+            </ul>
+        </ul>
+        <ul class="scnd_col">
+            <li class="title"><a>О нас</a></li>
+            <li class="column_8_col_2">
+                <ul>
+                    <li class="History_8_col_2"><button onclick="btn_click()" id="info_button_footer">История</button></li>
+                    <li class="Our_Team_8_col_2"><button onclick="btn_click()" id="info_button_footer">Наша команда</button></li>
+                    <li class="Policy_8_col_2"><button onclick="btn_click()" id="info_button_footer">Политика приватности</button></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="third_col">
+            <li class="title"><a>Услуги</a></li>
+            <li class="column_8_col_3">
+                <ul>
+                    <li class="How_Order_8_col_3"><button onclick="btn_click()" id="info_button_footer">Как заказать</button></li>
+                    <li class="Order_Status_8_col_3"><button onclick="btn_click()" id="info_button_footer">Статус Заказа</button></li>
+                    <li class="Promo_8_col_3"><button onclick="btn_click()" id="info_button_footer">Акции</button></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="fourth_col">
+            <li class="title"><a>Другое</a></li>
+            <li class="column_8_col_4">
+                <ul>
+                    <li class="Contacts_8_col_4"><button onclick="btn_click()" id="info_button_footer">Наши контакты</button></li>
+                    <li class="Help_8_col_4"><button onclick="btn_click()" id="info_button_footer">Помощь</button></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="Scripts/index.js"></script>
+</body>
+</html>
